@@ -5,7 +5,8 @@ workflows:
   my-invalid-workflow:
     name: My Invalid Workflow
     environment:
-      some-key: some-value
+      vars:
+        some-key: some-value
     scripts:
       - name: First script
         script: ...
