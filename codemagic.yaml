@@ -5,6 +5,7 @@ workflows:
   my-invalid-workflow:
     name: My Invalid Workflow
 123
+abc
     environment:
       vars:
         some-key: some-value
