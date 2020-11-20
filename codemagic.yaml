@@ -1,8 +1,0 @@
-# Automatically generated on 2020-09-08 UTC from http://localhost:3000/app/5c5c02e91287eb000b5acb34/settings
-# Note that this configuration is not an exact match to UI settings. Review and adjust as necessary.
-
-workflows:
-  my-invalid-workflow:
-    name: My Invalid Workflow
-    environment:
-      -
