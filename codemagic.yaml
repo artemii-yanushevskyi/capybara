@@ -5,4 +5,10 @@ workflows:
   my-invalid-workflow:
     name: My Invalid Workflow
     environment:
-      -
+      some-key: some-value
+    scripts:
+      - name: First script
+        script: ...
+      - some script
+      - name: S2
+      - some other script
