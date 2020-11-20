@@ -4,9 +4,11 @@
 workflows:
   my-invalid-workflow:
     name: My Invalid Workflow
-123
-abc
+    triggering:
+      branch_patterns:
+        - pattern: '*'
     environment:
+      invalid-key: 1
       vars:
         some-key: some-value
     scripts:
