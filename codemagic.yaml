@@ -17,3 +17,4 @@ workflows:
       - ls -l $FCI_BUILD_DIR/to_be_cached
       - touch $FCI_BUILD_DIR/to_be_cached/$FCI_BUILD_ID.txt
       - ls -l $FCI_BUILD_DIR/to_be_cached
+      - exit 1
