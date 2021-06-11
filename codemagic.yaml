@@ -27,7 +27,7 @@ workflows:
       - flutter_drive.log
     publishing:
       app_store_connect:
-        api_key: Encrypted(Z0FBQUFBQmd3ZVpuRTZUaFoxTkhOeWlkcE4zVGttc3JWTUhZdGhoMEhqY1A5TnJvVkhBVUU4QjA0WnJEeV9adklreDQyS3VEbmlCRVFncF9lSE9zYkNsTVRLN3ZNZjdZNXJHa2c3RFZIeS1tNEVtVWxzVDJ5RkRWaDhpbGstdWVCbmJCX2dsNWlDdnZNZWxseDIwZXpRMjE4bnoxbUlnOFVjWjVCeU10b1R3UDUyVUZQWTBJbHp5aW5UN0xLNUxxREoxcE9Ta0dhZ3piQjVRWnFVaGtrMjBsdlR6VUQwb210QXFkNkVpSGZXa3RaVUd1cGE3TGNOVmxZTUxpdnBsY0RjbjFXM3lyV2Zkd00tbDlRXzZnWU5fMzd3UDBoek1UZ3FnYlpsZ0U0ZDRKZnhRalRwVGxUZzFNZjU5N2hqejNVTVFudEFOLUYtVlBOZ2haUjN6NHpIMkc1b3pPWWpoeTBMZTc0Z0NsNG5CUTdVdGY5UW5JZnRWc0hnR1NBeU5BcU15eC1mWWl0dFJ4TXlieXhvNi1DOGhCaElVdW9hTXQ1MmtfZEwwVXJEeDlSelpnUXFOUURCYz0=)
-        key_id: 4X5V82JUU5
-        issuer_id: 7d812fe2-8abd-47ca-9d27-3ed7e62d7b6d
+        api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
         submit_to_testflight: true
