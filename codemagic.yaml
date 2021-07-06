@@ -31,7 +31,8 @@ workflows:
         submit_to_testflight: true
         beta_groups:
           - Codemagic CLI Tools test
-          - App Store Connect Users
-          - App Store Connect Users
+          - App Store Connect Users # non-breakable space
+          - App Store Connect Users # non-breakable space
+          - App Store Connect Users # breakable space
           - test
           - testX
